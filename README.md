@@ -7,6 +7,8 @@ version:  1.0.1
 
 language: zh
 
+logo: https://aiycblog.oss-cn-zhangjiakou.aliyuncs.com/cover/2021-05-14-1.jpg
+
 narrator: icbugcoder
 
 comment:  Python爬虫交互式文档，让你体验Python爬虫的简单，了解Python爬虫模块库的使用，以及对网页结构的分析
