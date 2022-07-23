@@ -238,7 +238,30 @@ Python是万能胶水，相比很多其他的语言，Python可以在多领域�
                B --> C -'
 ``````````````````````````````````````````````````
 
+Python基础语法调用
+
 ```Python
-var s = "JavaScript syntax highlighting";
-alert(s);
+print("Hello")
 ```
+@Pyodide.eval
+
+Python数据分析模块第三方包调用
+
+```Python
+import numpy as np
+import matplotlib.pyplot as plt
+
+t = np.arange(0.0, 2.0, 0.01)
+s = np.sin(2 * np.pi * t)
+
+fig, ax = plt.subplots()
+ax.plot(t, s)
+
+ax.grid(True, linestyle='-.')
+ax.tick_params(labelcolor='r', labelsize='medium', width=3)
+
+plt.show()
+
+plot(fig) # <- this is required to plot the fig also on the LiaScript canvas
+```
+@Pyodide.eval
