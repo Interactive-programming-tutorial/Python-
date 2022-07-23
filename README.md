@@ -13,10 +13,10 @@ logo: https://aiycblog.oss-cn-zhangjiakou.aliyuncs.com/cover/2021-05-14-1.jpg
 
 comment:  本教程适合想学习Python的爱好者，以及正在学习Python基础知识的同学学习！Python大佬可移步去查看Python爬虫，神经视觉教程，文档正在不断更新，欢迎浏览！
 
-script:   https://aiycblog.oss-cn-zhangjiakou.aliyuncs.com/pyodide/pyodide.js
+script:  https://cdn.code.run.aiyc.top/pyodide-statics/pyodide.js
 
 @onload
-window.languagePluginUrl = 'https://aiycblog.oss-cn-zhangjiakou.aliyuncs.com/pyodide/'
+window.languagePluginUrl = 'https://cdn.code.run.aiyc.top/pyodide-statics/'
 
 window.pyodide_ready = true;
 
