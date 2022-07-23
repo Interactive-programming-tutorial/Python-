@@ -312,7 +312,7 @@ send.handle("stop",  (e) => {
 </script>
 @end
 -->
-<# Python入门教程>
+# Python入门教程
 
 # 变量和类型
 本章我们将会了解到Python最基础的数据种类
