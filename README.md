@@ -15,6 +15,7 @@ comment:  本教程适合想学习Python的爱好者，以及正在学习Python�
 
 script:  https://cdn.code.run.aiyc.top/pyodide-statics/pyodide.js
 
+
 @onload
 window.languagePluginUrl = 'https://cdn.code.run.aiyc.top/pyodide-statics/'
 
@@ -22,7 +23,7 @@ window.pyodide_ready = true;
 
 window.pyodide_modules = new Set()
 
-window.py_packages = ["matplotlib", "numpy"]
+// window.py_packages = ["matplotlib", "numpy"]
 
 window.loadModules = function() {
   languagePluginLoader.then(() => {
@@ -149,7 +150,6 @@ runPython()
 </script>
 
 @end
-
 -->
 
 # Python入门教程
